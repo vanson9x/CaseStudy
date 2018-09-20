@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script>
+        function funcSubmit() {
+            var obUsername = document.getElementsByName("username")[0];
+            var obPassword = document.getElementsByName("password")[0];
+            if (obUsername.value.trim().length < 5) {
+                alert('Tên tài khoản phải từ 8 ký tự trở lên.');
+                return false;
+            }
+            if (obPassword.value.trim().length < 8) {
+                alert('Mật khẩu phải từ 8 ký tự trở lên.');
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form action="CS04" method="post" id="form1" onsubmit="return funcSubmit()">
+        <input type="text" placeholder="User name" name="username" value="" required /> <br />
+        <input type="password" name="password" placeholder="password" value="" required /> <br />
+        <button type="submit">Đăng nhập</button>
+    </form>
+</body>
+</html>
