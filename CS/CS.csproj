@@ -206,6 +206,10 @@
     <Content Include="CS03.aspx" />
     <Content Include="CS04.aspx" />
     <Content Include="CS04.html" />
+    <Content Include="CS05.aspx" />
+    <Content Include="CS06.aspx" />
+    <Content Include="CS06_HW1.aspx" />
+    <Content Include="CS07.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -408,6 +412,34 @@
     </Compile>
     <Compile Include="CS04.aspx.designer.cs">
       <DependentUpon>CS04.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CS05.aspx.cs">
+      <DependentUpon>CS05.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CS05.aspx.designer.cs">
+      <DependentUpon>CS05.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CS06.aspx.cs">
+      <DependentUpon>CS06.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CS06.aspx.designer.cs">
+      <DependentUpon>CS06.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CS06_HW1.aspx.cs">
+      <DependentUpon>CS06_HW1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CS06_HW1.aspx.designer.cs">
+      <DependentUpon>CS06_HW1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CS07.aspx.cs">
+      <DependentUpon>CS07.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CS07.aspx.designer.cs">
+      <DependentUpon>CS07.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
