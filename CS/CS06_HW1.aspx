@@ -11,9 +11,9 @@
         <asp:TextBox ID="txt1" runat="server"></asp:TextBox>
         <asp:Button ID="btn1" runat="server" Text="Button1" OnClick="btn1_Click"/>
         <asp:Label ID="lbl1" runat="server"></asp:Label> <br />
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txt2" runat="server"></asp:TextBox>
         <asp:Button ID="btn2" runat="server" Text="Button2" OnClick="btn2_Click"/>
-        <asp:Label ID="Label2" runat="server"></asp:Label>
+        <asp:Label ID="lbl2" runat="server"></asp:Label>
     </form>
 </body>
 </html>
