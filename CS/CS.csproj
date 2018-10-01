@@ -209,7 +209,7 @@
     <Content Include="CS05.aspx" />
     <Content Include="CS06.aspx" />
     <Content Include="CS06_HW1.aspx" />
-    <Content Include="CS07.aspx" />
+    <Content Include="CS07-08.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -434,12 +434,12 @@
     <Compile Include="CS06_HW1.aspx.designer.cs">
       <DependentUpon>CS06_HW1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CS07.aspx.cs">
-      <DependentUpon>CS07.aspx</DependentUpon>
+    <Compile Include="CS07-08.aspx.cs">
+      <DependentUpon>CS07-08.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CS07.aspx.designer.cs">
-      <DependentUpon>CS07.aspx</DependentUpon>
+    <Compile Include="CS07-08.aspx.designer.cs">
+      <DependentUpon>CS07-08.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
