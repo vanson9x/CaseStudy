@@ -31,6 +31,7 @@
                                 <h4 class="w-100"><asp:Label ID="TenhangLabel" runat="server" Text='<%# Eval("Tenhang") %>' /></h4>
                                 <asp:Image ID="picter" runat="server" CssClass="w-100" ImageUrl='<%# Eval("TenfileAnh") %>' />
                                 <p class="w-100 m-0"><asp:Label ID="GiaNiemyetLabel" runat="server" Text='<%# Eval("GiaNiemyet") %>' /></p>
+                                <asp:Button runat="server" CssClass='<%# Eval("PK_HangID") %>' OnClick="itemClicked" Text="Add To Cart" />
                             </div>
                         </ItemTemplate>
                     </asp:DataList>

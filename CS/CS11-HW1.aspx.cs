@@ -13,5 +13,10 @@ namespace CS
         {
 
         }
+
+        protected void itemClicked(object sender, EventArgs e)
+        {
+            Button btn = (Button) sender;
+        }
     }
 }
